@@ -99,8 +99,8 @@ web-helper/
 ## 📧 Контакти
 
 - Email: stanimir.penkov19@gmail.com
-- GitHub: [your-username](https://github.com/penk0vXd)
-- Website: [webhelper.bg](https://penk0vxd.github.io/web-helper/)
+- GitHub: [penk0vXd](https://github.com/penk0vXd)
+- Website: [web-helper.github.io](https://penk0vxd.github.io/web-helper/)
 
 ## 🙏 Благодарности
 
