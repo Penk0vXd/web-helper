@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог с Бутони - Web Helper</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="../../logo.png" alt="Web Helper Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="../../index.html">Начало</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-trigger">Продукти <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../../font-generator.html">Генератор на шрифтове</a></li>
+                        <li><a href="../../button-generator.html">Генератор на бутони</a></li>
+                        <li><a href="../../div-generator.html">Генератор на дивове</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-trigger active">Каталог <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../buttons/index.html" class="active">Бутони</a></li>
+                        <li><a href="../divs/index.html">Дивове</a></li>
+                        <li><a href="../fonts/index.html">Шрифтове</a></li>
+                    </ul>
+                </li>
+                <li><a href="../../contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="catalog-page">
+        <section class="catalog-header">
+            <h1>Каталог с Бутони</h1>
+            <p>Разгледайте нашата колекция от готови бутони за вашия уебсайт</p>
+        </section>
+
+        <section class="catalog-grid">
+            <div class="catalog-item">
+                <h3>Неонов Бутон</h3>
+                <div class="button-preview">
+                    <button class="neon-button">Неонов ефект</button>
+                </div>
+                <div class="code-snippet">
+                    <pre><code class="language-css">.neon-button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px #0ff;
+    transition: all 0.3s;
+}</code></pre>
+                    <button class="copy-button" data-code="neon-button">
+                        <i class="fas fa-copy"></i> Копирай CSS
+                    </button>
+                </div>
+            </div>
+
+            <div class="catalog-item">
+                <h3>Градиент Бутон</h3>
+                <div class="button-preview">
+                    <button class="gradient-button">Градиент ефект</button>
+                </div>
+                <div class="code-snippet">
+                    <pre><code class="language-css">.gradient-button {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    transition: all 0.3s;
+}</code></pre>
+                    <button class="copy-button" data-code="gradient-button">
+                        <i class="fas fa-copy"></i> Копирай CSS
+                    </button>
+                </div>
+            </div>
+
+            <!-- Add more button examples here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Web Helper. Всички права запазени.</p>
+            </div>
+            <div class="contact">
+                <p>Контакти: <a href="mailto:info@webhelper.bg">info@webhelper.bg</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../main.js"></script>
+    <script src="buttons.js"></script>
+</body>
+</html>
